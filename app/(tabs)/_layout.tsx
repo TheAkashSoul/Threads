@@ -33,7 +33,7 @@ export default function TabLayout() {
       }}
     >
       <Tabs.Screen
-        name="home"
+        name="index"
         options={{
           headerShown: false,
           tabBarLabel: "",
@@ -45,7 +45,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="search"
         options={{
-          title: "Search",
+          headerShown: false,
           tabBarLabel: "",
           tabBarIcon: ({ color }) => (
             <Ionicons name="search" size={30} color={color} />
