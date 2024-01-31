@@ -2,7 +2,7 @@ import { View, Text, Image, Pressable } from "react-native";
 import React from "react";
 
 const SearchCard = () => {
-  const imgDP =
+  const imgDP: string =
     "https://images.pexels.com/photos/3775141/pexels-photo-3775141.jpeg?auto=compress&cs=tinysrgb&w=600";
 
   return (

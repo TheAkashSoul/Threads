@@ -9,7 +9,7 @@ import {
 import React from "react";
 import SearchCard from "../../components/searchComponents/SearchCard";
 
-const search = () => {
+const search: React.FC = () => {
   return (
     <View style={{ backgroundColor: "#FFFFFF" }}>
       <SafeAreaView>
@@ -69,7 +69,7 @@ const search = () => {
   );
 };
 
-styles = StyleSheet.create({
+const styles = StyleSheet.create({
   container: {
     paddingHorizontal: 10,
   },

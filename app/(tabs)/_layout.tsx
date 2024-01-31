@@ -65,7 +65,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="activity"
         options={{
-          title: "Activity",
+          headerShown: false,
           tabBarLabel: "",
           tabBarIcon: ({ color }) => (
             <FontAwesome name="heart" size={26} color={color} />
